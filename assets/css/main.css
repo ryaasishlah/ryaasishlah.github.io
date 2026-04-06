@@ -1258,6 +1258,22 @@ section,
   background-color: var(--accent-color);
 }
 
+/* KHUSUS AI yang center */
+.skills .skills-category.text-center h3:after {
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.skills .text-center .skill-list {
+  display: inline-block;
+  text-align: left;
+}
+
+.skills .text-center {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
 .skills .skill-item {
   margin-bottom: 25px;
 }
