@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Haris Riyoni — Portfolio & Resume</title>
+  <meta name="description" content="Portofolio & CV Haris Riyoni — Backend / Full‑stack Developer (Laravel, Express.js, Golang, Docker, MySQL, Postgres)">
+  <meta name="keywords" content="Haris Riyoni, Backend Developer, Full‑stack, Laravel, Express, Golang, Docker, MySQL, Postgres, Bandung">
+  <meta name="theme-color" content="#111827" />
+
+  <!-- Favicons -->
+  <!-- <link href="assets/img/favicon.png" rel="icon"> -->
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- Template Info -->
+  <!--
+  * Template Name: SnapFolio
+  * Updated: Jul 21 2025 with Bootstrap v5.3.7
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  -->
+
+  <style>
+    /* --- Performa & Stabilitas Layout --- */
+    /* Hilangkan preloader supaya tidak pernah menutupi layar (kadang stuck) */
+    #preloader { display: none !important; }
+
+    /* Hindari CLS: gambar profil pakai aspect-ratio */
+    .profile-image { width: 100%; height: auto; aspect-ratio: 1/1; object-fit: cover; }
+    .profile-card .profile-header img { width: 100%; height: auto; aspect-ratio: 1/1; object-fit: cover; }
+
+    /* Scroll-top tap area lebih besar */
+    #scroll-top { width: 44px; height: 44px; }
+
+    /* Matikan animasi jika user pilih reduced motion */
+    @media (prefers-reduced-motion: reduce) {
+      [data-aos] { transition: none !important; transform: none !important; opacity: 1 !important; }
+    }
+  </style>
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header dark-background d-flex flex-column justify-content-center">
+    <i class="header-toggle d-xl-none bi bi-list" aria-label="Buka menu"></i>
+
+    <div class="header-container d-flex flex-column align-items-start">
+      <nav id="navmenu" class="navmenu" aria-label="Navigasi utama">
+        <ul>
+          <li><a href="#hero" class="active"><i class="bi bi-house navicon" aria-hidden="true"></i>Beranda</a></li>
+          <li><a href="#about"><i class="bi bi-person navicon" aria-hidden="true"></i> Tentang</a></li>
+          <li><a href="#resume"><i class="bi bi-file-earmark-text navicon" aria-hidden="true"></i> Resume</a></li>
+          <li><a href="#portfolio"><i class="bi bi-images navicon" aria-hidden="true"></i> Portofolio</a></li>
+          <!-- <li><a href="#services"><i class="bi bi-hdd-stack navicon"></i> Layanan</a></li> -->
+          <li><a href="#contact"><i class="bi bi-envelope navicon" aria-hidden="true"></i> Kontak</a></li>
+        </ul>
+      </nav>
+
+      <div class="social-links text-center">
+        <a href="mailto:imyharis@gmail.com" class="google-plus" title="Email"><i class="bi bi-envelope" aria-hidden="true"></i><span class="visually-hidden">Email</span></a>
+        <a href="tel:+6285860149271" class="phone" title="Telepon"><i class="bi bi-telephone" aria-hidden="true"></i><span class="visually-hidden">Telepon</span></a>
+        <a href="https://www.linkedin.com/in/harisriyoni/" target="_blank" rel="noopener" class="linkedin" title="LinkedIn"><i class="bi bi-linkedin" aria-hidden="true"></i><span class="visually-hidden">LinkedIn</span></a>
+      </div>
+
+    </div>
+
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section">
+
+      <div class="background-elements" aria-hidden="true">
+        <div class="bg-circle circle-1"></div>
+        <div class="bg-circle circle-2"></div>
+      </div>
+
+      <div class="hero-content">
+
+        <div class="container">
+          <div class="row align-items-center">
+
+            <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
+              <div class="hero-text">
+                <h1>Haris <span class="accent-text">Riyoni</span></h1>
+                <h2>Bandung, Indonesia</h2>
+                <p class="lead">Saya seorang <span class="typed" data-typed-items="Backend Developer, Full‑stack Developer"></span></p>
+                <p class="description">Fresh graduate D4 Teknik Informatika (ULBI) yang antusias meniti karier sebagai Backend/Full‑stack Developer.  Siap berkontribusi pada pengembangan produk.</p>
+
+                <div class="hero-actions d-flex flex-wrap gap-2">
+                  <a href="#portfolio" class="btn btn-primary">Lihat Karya</a>
+                  <a href="#contact" class="btn btn-outline">Hubungi Saya</a>
+                  <a href="assets/cv/haris-riyoni-cv.pdf" class="btn btn-light d-inline-flex align-items-center gap-2" target="_blank" rel="noopener">
+                    <i class="bi bi-file-earmark-pdf" aria-hidden="true"></i>
+                    <span>Download CV (PDF)</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6" data-aos="fade-left" data-aos-delay="200">
+              <div class="hero-visual">
+                <div class="profile-container">
+                  <div class="profile-background" aria-hidden="true"></div>
+                  <img src="assets/img/profile/harisriyoni.JPG" alt="Foto profil Haris Riyoni" class="profile-image rounded" fetchpriority="high" decoding="async">
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </section><!-- /Hero Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row">
+          <div class="col-lg-5" data-aos="zoom-in" data-aos-delay="200">
+            <div class="profile-card">
+              <div class="profile-header">
+                <div class="profile-image">
+                  <img src="assets/img/profile/harisriyoni.JPG" alt="Haris Riyoni" class="img-fluid rounded" loading="lazy" decoding="async">
+                </div>
+                <div class="profile-badge" aria-hidden="true">
+                  <i class="bi bi-check-circle-fill"></i>
+                </div>
+              </div>
+
+              <div class="profile-content">
+                <h3>Haris Riyoni</h3>
+                <p class="profession">Backend / Full‑stack Developer</p>
+
+                <div class="contact-links">
+                  <a href="mailto:imyharis@gmail.com" class="contact-item">
+                    <i class="bi bi-envelope" aria-hidden="true"></i>
+                    imyharis@gmail.com
+                  </a>
+                  <a href="tel:+6285860149271" class="contact-item">
+                    <i class="bi bi-telephone" aria-hidden="true"></i>
+                    +62 858‑6014‑9271
+                  </a>
+                  <a href="https://www.linkedin.com/in/harisriyoni/" target="_blank" rel="noopener" class="contact-item">
+                    <i class="bi bi-linkedin" aria-hidden="true"></i>
+                    linkedin.com/in/harisriyoni
+                  </a>
+                  <span class="contact-item">
+                    <i class="bi bi-geo-alt" aria-hidden="true"></i>
+                    Bandung, Indonesia
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-7" data-aos="fade-left" data-aos-delay="300">
+            <div class="about-content">
+              <div class="section-header">
+                <span class="badge-text">Tentang Saya</span>
+                <h2>Siap berkontribusi pada proyek web yang berdampak</h2>
+              </div>
+
+              <div class="description">
+                <p>Saya adalah fresh graduate D4 Teknik Informatika dari Universitas Logistik dan Bisnis Internasional (ULBI). Berpengalaman pada pengembangan <strong>backend</strong> dan <strong>full‑stack</strong> serta otomasi <strong>CI/CD</strong> dengan Docker.</p>
+                <p>Terbiasa bekerja kolaboratif maupun mandiri, fokus pada kualitas dan maintainability kode, serta antusias mempelajari teknologi baru.</p>
+              </div>
+
+              <div class="details-grid">
+                <div class="detail-row">
+                  <div class="detail-item">
+                    <span class="detail-label">Spesialisasi</span>
+                    <span class="detail-value">Web Development</span>
+                  </div>
+                  <div class="detail-item">
+                    <span class="detail-label">Level</span>
+                    <span class="detail-value">Fresh Graduate</span>
+                  </div>
+                </div>
+                <div class="detail-row">
+                  <div class="detail-item">
+                    <span class="detail-label">Pendidikan</span>
+                    <span class="detail-value">D4 Teknik Informatika — ULBI (Lulus 29 Agustus 2025), IPK 3.48</span>
+                  </div>
+                  <div class="detail-item">
+                    <span class="detail-label">Hard Skills</span>
+                    <span class="detail-value">PHP (Laravel), JS (Express), Golang, Docker, MySQL, Postgres, MongoDB, Tailwind CSS</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="cta-section d-flex flex-wrap gap-2">
+                <a href="#resume" class="btn btn-primary">
+                  <i class="bi bi-journal-text" aria-hidden="true"></i>
+                  Lihat Resume
+                </a>
+                <a href="#contact" class="btn btn-outline">
+                  <i class="bi bi-chat-dots" aria-hidden="true"></i>
+                  Ayo Diskusi
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /About Section -->
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Keterampilan Teknis</h2>
+        <p>Ringkasan kemampuan utama dari pengalaman</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="skills-category" data-aos="fade-up" data-aos-delay="200">
+              <h3>Front‑end Development</h3>
+              <ul class="list-unstyled skill-list mt-3">
+                <li class="mb-2"><i class="bi bi-check2-circle me-2" aria-hidden="true"></i>HTML5, CSS3, Tailwind CSS</li>
+                <li class="mb-2"><i class="bi bi-check2-circle me-2" aria-hidden="true"></i>JavaScript (ES6+)</li>
+                <!-- <li class="mb-2"><i class="bi bi-check2-circle me-2"></i>Blade templating (Laravel)</li> -->
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="skills-category" data-aos="fade-up" data-aos-delay="300">
+              <h3>Back‑end & DevOps</h3>
+              <ul class="list-unstyled skill-list mt-3">
+                <li class="mb-2"><i class="bi bi-check2-circle me-2" aria-hidden="true"></i><strong>PHP</strong> — Laravel </li>
+                <li class="mb-2"><i class="bi bi-check2-circle me-2" aria-hidden="true"></i><strong>JavaScript</strong> — Express JS</li>
+                <li class="mb-2"><i class="bi bi-check2-circle me-2" aria-hidden="true"></i><strong>Golang</strong> — Go Fiber</li>
+                <li class="mb-2"><i class="bi bi-check2-circle me-2" aria-hidden="true"></i><strong>Database</strong> — MySQL, PostgreSQL, MongoDB</li>
+                <li class="mb-2"><i class="bi bi-check2-circle me-2" aria-hidden="true"></i><strong>Docker & CI/CD</strong></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section><!-- /Skills Section -->
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Resume</h2>
+        <p>Ringkasan pendidikan, pengalaman, sertifikasi, dan publikasi</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+          <!-- Left column with summary and contact -->
+          <div class="col-lg-4">
+            <div class="resume-side" data-aos="fade-right" data-aos-delay="100">
+              <div class="profile-img mb-4">
+                <img src="assets/img/profile/harisriyoni.JPG" alt="Profil Haris Riyoni" class="img-fluid rounded" loading="lazy" decoding="async">
+              </div>
+
+              <h3>Ringkasan Profesional</h3>
+              <p>Backend/Full‑stack Developer dengan pengalaman magang & freelance: membangun API, CMS, membership & payment, serta CI/CD berbasis Docker. Tertarik pada arsitektur yang rapi, scalable, dan mudah dirawat.</p>
+
+              <h3 class="mt-4">Informasi Kontak</h3>
+              <ul class="contact-info list-unstyled">
+                <li><i class="bi bi-geo-alt" aria-hidden="true"></i> Bandung, Indonesia</li>
+                <li><i class="bi bi-envelope" aria-hidden="true"></i> <a href="mailto:imyharis@gmail.com">imyharis@gmail.com</a></li>
+                <li><i class="bi bi-phone" aria-hidden="true"></i> <a href="tel:+6285860149271">+62 858‑6014‑9271</a></li>
+                <li><i class="bi bi-linkedin" aria-hidden="true"></i> <a href="https://www.linkedin.com/in/harisriyoni/" target="_blank" rel="noopener">linkedin.com/in/harisriyoni</a></li>
+              </ul>
+
+              <div class="mt-4">
+                <h3>Pendidikan</h3>
+                <div class="resume-item">
+                  <h4>D4 Teknik Informatika — ULBI</h4>
+                  <h5>Lulus: 29 Agustus 2025</h5>
+                  <p>IPK 3.48/4.00</p>
+                  <p><strong>Mata kuliah relevan:</strong> Pemrograman Web, Basis Data, Web Service, Software Quality, Algoritma & Struktur Data, Proyek, RPL.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right column with experience and education -->
+          <div class="col-lg-8 ps-4 ps-lg-5">
+            <!-- Experience Section -->
+            <div class="resume-section" data-aos="fade-up">
+              <h3><i class="bi bi-briefcase me-2" aria-hidden="true"></i>Pengalaman</h3>
+
+              <div class="resume-item">
+                <h4>Backend Developer — Internship</h4>
+                <h5>Oktober 2024 – Desember 2024</h5>
+                <p class="company"><i class="bi bi-building" aria-hidden="true"></i> PT Hexagon Karyatama Indonesia</p>
+                <ul>
+                  <li>Membangun fitur <strong>Internet Addiction Assessment (IAA)</strong> di backend Laravel (implementasi formula psikolog).</li>
+                  <li>Membangun <strong>CMS Dashboard Backend</strong> untuk Jatidiri.app.</li>
+                </ul>
+                <p class="mt-2"><i class="bi bi-link-45deg" aria-hidden="true"></i> <a href="https://jatidiri.app/" target="_blank" rel="noopener">jatidiri.app</a></p>
+              </div>
+
+              <div class="resume-item">
+                <h4>Backend Developer — Freelance</h4>
+                <h5>Maret 2025 – Mei 2025</h5>
+                <p class="company"><i class="bi bi-building" aria-hidden="true"></i> Desa Sitemu</p>
+                <ul>
+                  <li>Membangun <strong>CMS</strong> untuk sitemubersatu.com menggunakan Express.js & PostgreSQL.</li>
+                  <li>Dockerize aplikasi backend & database; susun <strong>CI/CD workflow</strong>.</li>
+                </ul>
+                <p class="mt-2"><i class="bi bi-link-45deg" aria-hidden="true"></i> <a href="https://sitemubersatu.com/" target="_blank" rel="noopener">sitemubersatu.com</a></p>
+              </div>
+
+              <div class="resume-item">
+                <h4>Full‑stack Developer — Freelance</h4>
+                <h5>Agustus 2025 – September 2025</h5>
+                <p class="company"><i class="bi bi-building" aria-hidden="true"></i> Berkemah</p>
+                <ul>
+                  <li>Fitur <strong>membership & payment</strong>: plan Basic/Premium, Snap token, aktivasi otomatis, coupon code, gating konten.</li>
+                  <li><strong>Checkout Flow</strong>: validasi pembayaran, dashboard membership & riwayat transaksi (Laravel + MySQL).</li>
+                </ul>
+                <p class="mt-2"><i class="bi bi-link-45deg" aria-hidden="true"></i> <a href="https://berkemah.com/" target="_blank" rel="noopener">berkemah.com</a></p>
+              </div>
+
+              <div class="resume-item">
+                <h4>Full‑stack Developer — Freelance</h4>
+                <h5>September 2025 – Oktober 2025</h5>
+                <p class="company"><i class="bi bi-building" aria-hidden="true"></i> ERP Mining BISA</p>
+                <ul>
+                  <li>Modul <strong>SCM</strong>: Trips, Hour Meter, Fuel Log, Weighbridge Tickets, Breakdowns (Blade/Tailwind), filter & pagination, policy site‑based.</li>
+                  <li><strong>Perencanaan & Operasional</strong>: Daily Plan (target ton/ritase per pit & shift), Shift Handover Log, Dispatch & Allocation, Reason Codes.</li>
+                  <li><strong>Master Data</strong>: Sites, Commodities, Site Config (HBA/Ni grade/assay).</li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Certifications Section -->
+            <div class="resume-section" data-aos="fade-up" data-aos-delay="100">
+              <h3><i class="bi bi-award me-2" aria-hidden="true"></i>Sertifikasi</h3>
+
+              <div class="resume-item">
+                <h4>Database Design — Oracle Academy</h4>
+                <h5>Agustus 2022</h5>
+              </div>
+
+              <div class="resume-item">
+                <h4>Introduction to JavaScript — Great Learning</h4>
+                <h5>Februari 2023</h5>
+                <p><a href="https://www.mygreatlearning.com/certificate/BDBYXTXX" target="_blank" rel="noopener">Lihat sertifikat</a></p>
+              </div>
+
+              <div class="resume-item">
+                <h4>Belajar Laravel Framework dari Pemula sampai Mahir — Udemy</h4>
+                <h5>Oktober 2024</h5>
+                <p><a href="https://www.udemy.com/certificate/UC-f59d5c28-1185-426a-9eb9-5e1d8af324c7/" target="_blank" rel="noopener">Lihat sertifikat</a></p>
+              </div>
+
+              <div class="resume-item">
+                <h4>Pemrograman Go-Lang: Pemula sampai Mahir — Udemy</h4>
+                <h5>Oktober 2025</h5>
+                <p><a href="https://www.udemy.com/certificate/UC-f570e93d-a4f6-445d-9365-79f32166331e/" target="_blank" rel="noopener">Lihat sertifikat</a></p>
+              </div>
+            </div>
+
+            <!-- Publications Section -->
+            <div class="resume-section" data-aos="fade-up" data-aos-delay="200">
+              <h3><i class="bi bi-journal me-2" aria-hidden="true"></i>Publikasi</h3>
+              <div class="resume-item">
+                <h4>Integrasi Golang dan Javascript dalam Pembuatan Web Service Surat Menyurat</h4>
+                <h5>Februari 2024</h5>
+                <p>Gramedia Digital</p>
+                <p><a href="https://ebooks.gramedia.com/id/buku/integrasi-golang-dan-javascript-dalam-pembuatan-web-service-surat-menyurat" target="_blank" rel="noopener">Baca publikasi</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Resume Section -->
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Portofolio</h2>
+        <p>Beberapa proyek yang pernah saya kerjakan</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+          <div class="row">
+            <div class="col-lg-3 filter-sidebar">
+              <div class="filters-wrapper" data-aos="fade-right" data-aos-delay="150">
+                <ul class="portfolio-filters isotope-filters">
+                  <li data-filter="*" class="filter-active">Semua</li>
+                  <li data-filter=".filter-backend">Backend/API</li>
+                  <li data-filter=".filter-fullstack">Full‑stack</li>
+                  <li data-filter=".filter-devops">DevOps</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="col-lg-9">
+              <div class="row gy-4 portfolio-container isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+                <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-backend">
+                  <div class="portfolio-wrap">
+                    <img src="assets/img/portfolio/image.png" class="img-fluid" alt="Jatidiri.app" loading="lazy" decoding="async">
+                    <div class="portfolio-info">
+                      <div class="content">
+                        <span class="category">Backend/API</span>
+                        <h4>Jatidiri.app — IAA & CMS Backend</h4>
+                        <div class="portfolio-links">
+                          <a href="https://jatidiri.app/" target="_blank" rel="noopener" title="Buka situs"><i class="bi bi-box-arrow-up-right"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div><!-- End Portfolio Item -->
+
+                <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-fullstack">
+                  <div class="portfolio-wrap">
+                    <img src="assets/img/portfolio/sitemu.png" class="img-fluid" alt="Sitemu CMS" loading="lazy" decoding="async">
+                    <div class="portfolio-info">
+                      <div class="content">
+                        <span class="category">Full‑stack</span>
+                        <h4>Desa Sitemu — CMS</h4>
+                        <div class="portfolio-links">
+                          <a href="https://sitemubersatu.com/" target="_blank" rel="noopener" title="Buka situs"><i class="bi bi-box-arrow-up-right"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div><!-- End Portfolio Item -->
+
+                <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-fullstack">
+                  <div class="portfolio-wrap">
+                    <img src="assets/img/portfolio/berkemah.png" class="img-fluid" alt="Berkemah.com" loading="lazy" decoding="async">
+                    <div class="portfolio-info">
+                      <div class="content">
+                        <span class="category">Full‑stack</span>
+                        <h4>Berkemah.com — Membership & Payment</h4>
+                        <div class="portfolio-links">
+                          <a href="https://berkemah.com/" target="_blank" rel="noopener" title="Buka situs"><i class="bi bi-box-arrow-up-right"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div><!-- End Portfolio Item -->
+
+                 <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-fullstack">
+                  <div class="portfolio-wrap">
+                    <img src="assets/img/portfolio/erp.png" class="img-fluid" alt="ERP Mining BISA" loading="lazy" decoding="async">
+                    <div class="portfolio-info">
+                      <div class="content">
+                        <span class="category">Full‑stack</span>
+                        <h4>RP Mining BISA — Modul SCM</h4>
+                        <div class="portfolio-links">
+                          <a href="https://orchid-llama-232399.hostingersite.com" target="_blank" rel="noopener" title="Buka situs"><i class="bi bi-box-arrow-up-right"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div><!-- End Portfolio Item -->
+
+              </div><!-- End Portfolio Container -->
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Portfolio Section -->
+
+    <!-- Services Section -->
+    <section id="services" class="services section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Layanan</h2>
+        <p>Solusi yang bisa saya bantu untuk tim Anda</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="service-header">
+          <div class="row align-items-center">
+            <div class="col-lg-8 col-md-12">
+              <div class="service-intro">
+                <h2 class="service-heading">
+                  <div>Solusi backend dan</div>
+                  <div><span>pengembangan produk web</span></div>
+                </h2>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-12">
+              <div class="service-summary">
+                <p>
+                  Fokus pada arsitektur rapi, kinerja, dan maintainability.
+                </p>
+                <a href="#contact" class="service-btn">
+                  Diskusikan kebutuhan Anda
+                  <i class="bi bi-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Services Section -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Kontak</h2>
+        <p>Siap berdiskusi tentang peluang kerja atau kolaborasi proyek</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row g-4 g-lg-5">
+          <div class="col-lg-5">
+            <div class="info-box">
+              <h3>Info Kontak</h3>
+              <p>Hubungi melalui email/telepon atau kirim pesan lewat formulir.</p>
+
+              <div class="info-item">
+                <div class="icon-box">
+                  <i class="bi bi-geo-alt" aria-hidden="true"></i>
+                </div>
+                <div class="content">
+                  <h4>Lokasi</h4>
+                  <p>Bandung, Indonesia</p>
+                </div>
+              </div>
+
+              <div class="info-item">
+                <div class="icon-box">
+                  <i class="bi bi-telephone" aria-hidden="true"></i>
+                </div>
+                <div class="content">
+                  <h4>Telepon</h4>
+                  <p>+62 858‑6014‑9271</p>
+                </div>
+              </div>
+
+              <div class="info-item">
+                <div class="icon-box">
+                  <i class="bi bi-envelope" aria-hidden="true"></i>
+                </div>
+                <div class="content">
+                  <h4>Email</h4>
+                  <p>imyharis@gmail.com</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-7">
+            <div class="contact-form">
+              <h3>Kirim Pesan</h3>
+              <p>Silakan isi form berikut. Saya akan membalas secepatnya.</p>
+
+              <form action="forms/contact.php" method="post" class="php-email-form" novalidate>
+                <div class="row gy-4">
+
+                  <div class="col-md-6">
+                    <input type="text" name="name" class="form-control" placeholder="Nama" required autocomplete="name">
+                  </div>
+
+                  <div class="col-md-6 ">
+                    <input type="email" class="form-control" name="email" placeholder="Email" required autocomplete="email">
+                  </div>
+
+                  <div class="col-12">
+                    <input type="text" class="form-control" name="subject" placeholder="Subjek" required>
+                  </div>
+
+                  <div class="col-12">
+                    <textarea class="form-control" name="message" rows="6" placeholder="Pesan" required></textarea>
+                  </div>
+
+                  <div class="col-12 text-center">
+                    <div class="loading" aria-live="polite">Memuat…</div>
+                    <div class="error-message" aria-live="assertive"></div>
+                    <div class="sent-message" aria-live="polite">Pesan Anda telah terkirim. Terima kasih!</div>
+
+                    <button type="submit" class="btn">Kirim</button>
+                  </div>
+
+                </div>
+              </form>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Contact Section -->
+
+  </main>
+
+  <footer id="footer" class="footer position-relative">
+
+    <div class="container">
+      <div class="copyright text-center ">
+        <p> <strong class="px-1 sitename">Haris Riyoni</strong> </p>
+      </div>
+      <div class="credits">
+        <!-- Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> -->
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center" aria-label="Kembali ke atas"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader (dibiarkan ada tapi disembunyikan via CSS agar JS template tidak error) -->
+  <div id="preloader" hidden></div>
+
+  <!-- Inline boot kecil: fallback typed & hormati reduced-motion -->
+  <script>
+    (function(){
+      var t = document.querySelector('.typed');
+      if (t && !t.textContent.trim()) { t.textContent = 'Backend Developer'; }
+      if (window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+        document.querySelectorAll('[data-aos]').forEach(function(n){ n.removeAttribute('data-aos'); n.removeAttribute('data-aos-delay'); });
+      }
+    })();
+  </script>
+
+  <!-- Vendor JS Files (defer = non‑blocking) -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js" defer></script>
+  <script src="assets/vendor/php-email-form/validate.js" defer></script>
+  <script src="assets/vendor/aos/aos.js" defer></script>
+  <script src="assets/vendor/typed.js/typed.umd.js" defer></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js" defer></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js" defer></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js" defer></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js" defer></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js" defer></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js" defer></script>
+
+  <!-- Main JS File (defer) -->
+  <script src="assets/js/main.js" defer></script>
+
+</body>
+
+</html>
